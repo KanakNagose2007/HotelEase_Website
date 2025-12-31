@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HotelEase | Hotel Management System</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    /* HERO BACKGROUND IMAGE */
+    .hero {
+      background-image:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("https://t4.ftcdn.net/jpg/01/88/93/17/360_F_188931734_lghk3pjsHPlO6E2jJsaAABAVpJKi8cWj.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 140px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .section-title {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .feature-card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .icon {
+      font-size: 40px;
+      color: #0d6efd;
+    }
+
+    .dashboard {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 40px;
+    }
+
+    footer {
+      background-color: #212529;
+      color: #adb5bd;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="container">
+    <h1>Smart Hotel Management System</h1>
+    <p class="lead mt-3">
+      Automate bookings, manage rooms, staff & guests with one powerful platform
+    </p>
+    <a href="#features" class="btn btn-primary btn-lg mt-4">
+      Explore Features
+    </a>
+  </div>
+</section>
+
+<!-- ABOUT SYSTEM -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2 class="section-title">About HotelEase</h2>
+        <p>
+          HotelEase is a complete Hotel Management System designed to simplify hotel operations.
+          From room reservations to staff management and billing, it helps hotels improve
+          efficiency and guest satisfaction.
+        </p>
+        <ul>
+          <li>Centralized management dashboard</li>
+          <li>Real-time room availability</li>
+          <li>Secure & scalable platform</li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+             class="img-fluid rounded-4"
+             alt="Hotel">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="py-5">
+  <div class="container">
+    <h2 class="text-center section-title">Core Management Features</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card feature-card p-4 text-center">
+          <div class="icon mb-3">🏨</div>
+          <h5>Room Management</h5>
+          <p>Manage room availability, pricing and categories easily.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card feature-card p-4 text-center">
+          <div class="icon mb-3">📅</div>
+          <h5>Booking System</h5>
+          <p>Automated booking, check-in and check-out.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card feature-card p-4 text-center">
+          <div class="icon mb-3">👥</div>
+          <h5>Guest Records</h5>
+          <p>Secure guest information and booking history.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
